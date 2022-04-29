@@ -1,0 +1,19 @@
+{
+  "name": "oneatkhayar",
+  "server.host": true,
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.9.5"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.1",
+    "@tweenjs/tween.js": "^18.6.4",
+    "three": "^0.139.2"
+  }
+}
