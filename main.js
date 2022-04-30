@@ -56,7 +56,7 @@ loadingManager.onLoad = function(){
 
 const loader = new GLTFLoader(loadingManager);
 loader.load(
-    'test.glb', (gltf)=>{
+    'test1.glb', (gltf)=>{
         const Model = gltf.scene;
         scene.add(Model);
         mixer = new THREE.AnimationMixer(Model);
